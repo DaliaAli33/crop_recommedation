@@ -1,7 +1,7 @@
 import streamlit as st
 from joblib import load
 import numpy as np
-model = load('/content/crop_recommedation_model (1).pkl')
+model = load('crop_recommedation_model (1).pkl')
 st.title('Crop Forecasting Model App')
 N = st.number_input('N')
 P = st.number_input('P')
